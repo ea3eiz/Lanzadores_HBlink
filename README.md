@@ -8,11 +8,11 @@ cd Lanzadores_HBlink
 
 cp hbmonitor.local /etc
 
-chomd +x /etc/hbmonitor.local
+chmod +x /etc/hbmonitor.local
 
 cp hbmonitor-local.service  /etc/systemd/system/
 
-chomd +x /etc/systemd/system/hbmonitor-local.service
+chmod +x /etc/systemd/system/hbmonitor-local.service
 
 systemctl enable hbmonitor-local.service
 
