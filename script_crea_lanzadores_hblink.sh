@@ -1,13 +1,13 @@
 #!/bin/bash
 
 #dar permisos a los ficheros siguientes
-cd /root/HBlink
+cd /home/ubuntu/HBlink
 chmod +x hb_confbridge.py
 chmod +x hb_parrot.py
 chmod +x loro.cfg
 chmod +x hblink.cfg
 
-cd /root/HBmonitor
+cd /home/ubuntu/HBmonitor
 chmod +x web_tables.py
 chmod +x config.py
 
