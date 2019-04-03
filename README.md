@@ -1,22 +1,10 @@
-Abrir un terminal
+Abrimos un terminal y ejecutamos los siguientes comandos:
 
-cd /root
+cd /root/HBLINK/
 
-git clone https://github.com/ea3eiz/Lanzadores_HBlink
+./script_crea_lanzadores_hblink.sh
 
-cd Lanzadores_HBlink
-
-cp hbmonitor.local /etc
-
-chmod +x /etc/hbmonitor.local
-
-cp hbmonitor-local.service  /etc/systemd/system/
-
-chmod +x /etc/systemd/system/hbmonitor-local.service
-
-systemctl enable hbmonitor-local.service
-
-systemctl enable hbmonitor-local.service
-
-systemctl start hbmonitor-local.service
+Nota:
+     este script crea todos los lanzadores que hacen falta
+     para que funcione el HBlinks_HBlink
 
