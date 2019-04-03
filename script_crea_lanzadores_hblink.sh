@@ -14,8 +14,6 @@ chmod +x config.py
 #creamos el lanzador HBmonitor:./web_tables.py
 cd /home/ubuntu/
 
-git clone https://github.com/ea3eiz/Lanzadores_HBlink
-
 cd Lanzadores_HBlink
 
 cp hbmonitor.local /etc
