@@ -1,6 +1,6 @@
 #!/bin/sh -e
 #
-# hbmonitor.local
+# hblink.local
 #
 # This script is executed at the end of each multiuser runlevel.
 # Make sure that the script will "exit 0" on success or any other
@@ -10,5 +10,6 @@
 # bits.
 #
 # By default this script does nothing.
-cd /root/HBmonitor
-./web_tables.py
+cd /root/HBlink
+./hb_parrot.py -c loro.cfg &
+./hb_confbridge.py
