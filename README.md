@@ -6,5 +6,5 @@ cd /root/HBLINK/
 
 Nota:
      este script crea todos los lanzadores que hacen falta
-     para que funcione el HBlinks_HBlink
+     para que funcione el HBlink
 
