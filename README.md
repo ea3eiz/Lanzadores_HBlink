@@ -18,3 +18,5 @@ systemctl enable hbmonitor-local.service
 
 systemctl enable hbmonitor-local.service
 
+systemctl start hbmonitor-local.service
+
