@@ -10,5 +10,5 @@
 # bits.
 #
 # By default this script does nothing.
-cd /root/HBmonitor
+cd /home/ubuntu/HBmonitor
 ./web_tables.py

@@ -10,6 +10,6 @@
 # bits.
 #
 # By default this script does nothing.
-cd /root/HBlink
+cd /home/ubuntu/HBlink
 ./hb_parrot.py -c loro.cfg &
 ./hb_confbridge.py
