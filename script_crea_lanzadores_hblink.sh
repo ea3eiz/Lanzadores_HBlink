@@ -1,5 +1,16 @@
 #!/bin/bash
 
+#dar permisos a los ficheros siguientes
+cd /root/HBlink
+chmod +x hb_confbridge.py
+chmod +x hb_parrot.py
+chmod +x loro.cfg
+chmod +x hblink.cfg
+
+cd /root/HBmonitor
+chmod +x web_tables.py
+chmod +x config.py
+
 #creamos el lanzador HBmonitor:./web_tables.py
 cd /root
 
