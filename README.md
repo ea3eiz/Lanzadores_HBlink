@@ -1,3 +1,5 @@
+Script para una distribución Ubuntu (en mi caso Ubuntu 18.04)
+
 Abrir un terminal
 
 cd /home/ubuntu
