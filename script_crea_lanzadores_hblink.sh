@@ -26,10 +26,6 @@ chmod +x /etc/systemd/system/hbmonitor-local.service
 
 systemctl enable hbmonitor-local.service
 
-systemctl enable hbmonitor-local.service
-
-systemctl start hbmonitor-local.service
-
 #creamos el lanzador HBlink:
 
 cp hblink.local /etc
@@ -42,6 +38,3 @@ chmod +x /etc/systemd/system/hblink-local.service
 
 systemctl enable hblink-local.service
 
-systemctl enable hblink-local.service
-
-systemctl start hblink-local.service
