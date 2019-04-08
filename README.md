@@ -1,10 +1,12 @@
 Abrir un terminal
 
-cd /root
+cd /home/ubuntu
 
 git clone https://github.com/ea3eiz/Lanzadores_HBlink
 
-cd /root/Lanzadores_HBlink
+cd /home/ubuntu/Lanzadores_HBlink
+
+chmod +x script_crea_lanzadores_hblink.sh
 
 ./script_crea_lanzadores_hblink.sh
 
